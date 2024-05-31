@@ -81,5 +81,5 @@ public class AdminController {
           leaderboardService.updateLeaderboardEntry(leaderboardEntry);
           return ResponseEntity.ok("Leaderboard entry updated successfully");
       }
-
+	System.out.println("hello world");
 }
